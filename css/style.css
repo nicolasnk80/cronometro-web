@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+h1 {
+    color: white;
+    font-size: 3em;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin: 2rem 0;
+}
+
+.btn {
+    height: 3em;
+    width: 7em;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+#button-start {
+    background-color: green;
+}
+
+#button-pause {
+    background-color: gray;
+}
+
+#button-stop {
+    background-color: red;
+}
